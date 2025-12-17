@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Idriss RS Studio crafts cinematic visuals for restaurants, clubs, fitness brands, and lifestyle creators from the heart of Tunisia."
+    />
+    <title>Idriss RS Studio | Cinematic Visuals</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="home">
+    <nav class="site-nav" data-nav>
+      <div class="container nav__inner">
+        <a class="brand" href="index.html">Idriss <span>RS</span></a>
+        <button class="nav__toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+          <span class="icon--menu" data-lucide="menu"></span>
+          <span class="icon--close" data-lucide="x"></span>
+        </button>
+        <div class="nav__links" data-nav-links>
+          <a class="nav__link" data-nav-link="home" href="index.html"><span data-i18n="nav.home"></span></a>
+          <a class="nav__link" data-nav-link="work" href="work.html"><span data-i18n="nav.work"></span></a>
+          <a class="nav__link" data-nav-link="youtube" href="youtube.html"><span data-i18n="nav.youtube"></span></a>
+          <a class="nav__link" data-nav-link="about" href="about.html"><span data-i18n="nav.about"></span></a>
+          <div class="nav__controls">
+            <span class="lang-switch__label" data-i18n="nav.languageLabel"></span>
+            <div class="lang-switch" data-lang-switch>
+              <button class="lang-switch__toggle" data-lang-toggle aria-label="Change language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="lang-switch__text" data-lang-current>EN</span>
+                <span class="lang-switch__chevron" aria-hidden="true"></span>
+              </button>
+              <ul class="lang-switch__list" data-lang-options role="listbox">
+                <li>
+                  <button type="button" data-lang-option="en">
+                    <span class="lang-option__code">EN</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.en"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" data-lang-option="fr">
+                    <span class="lang-option__code">FR</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.fr"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" data-lang-option="ar">
+                    <span class="lang-option__code">AR</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.ar"></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero__bg">
+          <img src="assets/img/idriss_fond.jpeg" alt="Idriss RS studio background" />
+        </div>
+        <div class="hero__overlay"></div>
+        <div class="hero__pattern"></div>
+        <div class="hero__content">
+          <h1 class="hero__title" data-i18n-type="html" data-i18n="hero.title">Idriss <span class="text-gradient">RS</span></h1>
+          <p class="hero__subtitle" data-i18n="hero.subtitle">From Vlogs to Viral</p>
+          <p class="hero__text" data-i18n="hero.text">From the heart of Tunisia</p>
+          <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+            <a class="btn btn-hero" href="work.html">
+              <span data-i18n="hero.buttons.primary">View Portfolio</span>
+              <span data-lucide="arrow-right"></span>
+            </a>
+            <a class="btn btn-outline-hero" href="youtube.html">
+              <span data-lucide="play"></span>
+              <span data-i18n="hero.buttons.secondary">Watch My Channel</span>
+            </a>
+          </div>
+        </div>
+        <div class="scroll-indicator"></div>
+      </section>
+
+      <section class="section services hero-pattern">
+        <div class="container">
+          <div class="section-heading">
+            <h2 data-i18n-type="html" data-i18n="services.heading">What I <span class="text-gradient">Create</span></h2>
+            <p data-i18n="services.description">Specializing in cinematic content that brings brands to life.</p>
+          </div>
+          <div class="grid services__grid">
+            <article class="service-card">
+              <div class="service-card__icon" data-lucide="utensils"></div>
+              <h3 data-i18n="services.cards.restaurants.title">Restaurants</h3>
+              <p data-i18n="services.cards.restaurants.body">Culinary experiences</p>
+            </article>
+            <article class="service-card">
+              <div class="service-card__icon" data-lucide="music-2"></div>
+              <h3 data-i18n="services.cards.clubs.title">Clubs</h3>
+              <p data-i18n="services.cards.clubs.body">Charity projects & helping people</p>
+            </article>
+            <article class="service-card">
+              <div class="service-card__icon" data-lucide="apple"></div>
+              <h3 data-i18n="services.cards.nutrition.title">Nutrition</h3>
+              <p data-i18n="services.cards.nutrition.body">Healthy lifestyle</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid stats__grid">
+            <article class="stat-card" data-counter="20" data-prefix="+" data-suffix="">
+              <span data-lucide="award"></span>
+              <h3>+20</h3>
+              <p data-i18n="stats.projects">Projects Completed</p>
+            </article>
+            <article class="stat-card" data-counter="200" data-suffix="+">
+              <span data-lucide="play"></span>
+              <h3>200+</h3>
+              <p data-i18n="stats.videos">Videos Created</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta hero-pattern">
+        <div class="container">
+          <h2 data-i18n-type="html" data-i18n="cta.heading">Ready to Ignite Your <span class="text-gradient">Brand?</span></h2>
+          <p data-i18n="cta.text">Let's create something extraordinary together.</p>
+          <a class="btn btn-hero" href="work.html" data-i18n="cta.button">Explore My Work</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand-mobile-hide">
+            <h3 class="brand">Idriss <span>RS</span></h3>
+            <p data-i18n="footer.tagline">"From Vlogs to Viral"</p>
+          </div>
+          <div class="footer__links footer__links-mobile-hide">
+            <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+            <a href="index.html"><span data-i18n="nav.home">Home</span></a>
+            <a href="work.html"><span data-i18n="nav.work">Work</span></a>
+            <a href="youtube.html"><span data-i18n="nav.youtube">YouTube</span></a>
+            <a href="about.html"><span data-i18n="nav.about">About</span></a>
+          </div>
+          <div>
+            <h4 data-i18n="footer.connect">Connect</h4>
+            <div class="footer__social">
+              <a class="social-btn" href="https://www.youtube.com/@IDRISSRS" target="_blank" rel="noreferrer">
+                <span data-lucide="youtube"></span>
+              </a>
+              <a class="social-btn" href="https://www.instagram.com/rwisiidriss/" target="_blank" rel="noreferrer">
+                <span data-lucide="instagram"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__developed">
+            <p class="footer__developed-label">Developed by</p>
+            <div class="footer__developed-links">
+              <a href="https://www.instagram.com/ameen_bnrziggg/" target="_blank" rel="noreferrer" class="footer__developer-link">Med Amine Benerzig</a>
+              <span class="footer__developed-separator">&</span>
+              <a href="https://www.instagram.com/4bdou_.dr/" target="_blank" rel="noreferrer" class="footer__developer-link">Abd Rahmen Dridi</a>
+            </div>
+          </div>
+          <p>© <span data-current-year></span> Idriss RS. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="assets/js/main.js"></script>
+  </body>
+</html>

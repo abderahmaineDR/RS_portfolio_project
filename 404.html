@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page Not Found | Idriss RS Studio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="site-nav" data-nav>
+      <div class="container nav__inner">
+        <a class="brand" href="index.html">Idriss <span>RS</span></a>
+        <button class="nav__toggle" data-nav-toggle aria-label="Toggle menu" aria-expanded="false">
+          <span class="icon--menu" data-lucide="menu"></span>
+          <span class="icon--close" data-lucide="x"></span>
+        </button>
+        <div class="nav__links" data-nav-links>
+          <a class="nav__link" href="index.html"><span data-i18n="nav.home"></span></a>
+          <a class="nav__link" href="work.html"><span data-i18n="nav.work"></span></a>
+          <a class="nav__link" href="youtube.html"><span data-i18n="nav.youtube"></span></a>
+          <a class="nav__link" href="about.html"><span data-i18n="nav.about"></span></a>
+          <div class="nav__controls">
+            <span class="lang-switch__label" data-i18n="nav.languageLabel"></span>
+            <div class="lang-switch" data-lang-switch>
+              <button class="lang-switch__toggle" data-lang-toggle aria-label="Change language" aria-haspopup="listbox" aria-expanded="false">
+                <span class="lang-switch__text" data-lang-current>EN</span>
+                <span class="lang-switch__chevron" aria-hidden="true"></span>
+              </button>
+              <ul class="lang-switch__list" data-lang-options role="listbox">
+                <li>
+                  <button type="button" data-lang-option="en">
+                    <span class="lang-option__code">EN</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.en"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" data-lang-option="fr">
+                    <span class="lang-option__code">FR</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.fr"></span>
+                  </button>
+                </li>
+                <li>
+                  <button type="button" data-lang-option="ar">
+                    <span class="lang-option__code">AR</span>
+                    <span class="lang-option__label" data-i18n="nav.languages.ar"></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main style="padding-top: 7rem;">
+      <div class="not-found">
+        <div>
+          <h1 style="font-size: 4rem; margin-bottom: 1rem;">404</h1>
+          <p style="color: var(--muted-foreground); margin-bottom: 1.5rem;" data-i18n="notFound.text">Oops! Page not found.</p>
+          <a class="btn btn-hero" href="index.html" data-i18n="notFound.button">Return Home</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <h3 class="brand">Idriss <span>RS</span></h3>
+            <p data-i18n="footer.tagline">Crafting visual stories from the heart of Tunisia.</p>
+          </div>
+          <div class="footer__links">
+            <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+            <a href="index.html"><span data-i18n="nav.home">Home</span></a>
+            <a href="work.html"><span data-i18n="nav.work">Work</span></a>
+            <a href="youtube.html"><span data-i18n="nav.youtube">YouTube</span></a>
+            <a href="about.html"><span data-i18n="nav.about">About</span></a>
+          </div>
+          <div>
+            <h4 data-i18n="footer.connect">Connect</h4>
+            <div class="footer__social">
+              <a class="social-btn" href="https://www.youtube.com/@IDRISSRS" target="_blank" rel="noreferrer">
+                <span data-lucide="youtube"></span>
+              </a>
+              <a class="social-btn" href="https://www.instagram.com/rwisiidriss/" target="_blank" rel="noreferrer">
+                <span data-lucide="instagram"></span>
+              </a>
+              <a class="social-btn" href="mailto:contact@idriss-rs.com">
+                <span data-lucide="mail"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__developed">
+            <p class="footer__developed-label">Developed by</p>
+            <div class="footer__developed-links">
+              <a href="https://www.instagram.com/ameen_bnrziggg/" target="_blank" rel="noreferrer" class="footer__developer-link">Med Amine Benerzig</a>
+              <span class="footer__developed-separator">&</span>
+              <a href="https://www.instagram.com/4bdou_.dr/" target="_blank" rel="noreferrer" class="footer__developer-link">Abd Rahmen Dridi</a>
+            </div>
+          </div>
+          <p>© <span data-current-year></span> Idriss RS. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+    <script defer src="assets/js/main.js"></script>
+  </body>
+</html>
+
